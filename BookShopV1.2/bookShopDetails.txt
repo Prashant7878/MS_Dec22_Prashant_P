@@ -1,0 +1,105 @@
+2022-12-07T09:42:12.328+05:30  INFO 19816 --- [main] com.bookshop.BookShopApplication2        : Starting BookShopApplication2 using Java 17.0.4.1 with PID 19816 (C:\Users\ppagare\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\BookShopV1.2\target\classes started by ppagare in C:\Users\ppagare\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\BookShopV1.2)
+2022-12-07T09:42:12.337+05:30  INFO 19816 --- [main] com.bookshop.BookShopApplication2        : No active profile set, falling back to 1 default profile: "default"
+2022-12-07T09:42:12.962+05:30  INFO 19816 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-07T09:42:13.038+05:30  INFO 19816 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 4 JPA repository interfaces.
+2022-12-07T09:42:13.607+05:30  INFO 19816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-12-07T09:42:13.619+05:30  INFO 19816 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-07T09:42:13.619+05:30  INFO 19816 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-07T09:42:13.734+05:30  INFO 19816 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-07T09:42:13.734+05:30  INFO 19816 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1359 ms
+2022-12-07T09:42:13.900+05:30  INFO 19816 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-07T09:42:13.963+05:30  INFO 19816 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-07T09:42:14.170+05:30  WARN 19816 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-07T09:42:14.323+05:30  INFO 19816 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-07T09:42:14.761+05:30  INFO 19816 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71b0289b
+2022-12-07T09:42:14.765+05:30  INFO 19816 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-07T09:42:14.793+05:30  INFO 19816 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-07T09:42:14.794+05:30  WARN 19816 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2022-12-07T09:42:15.847+05:30  INFO 19816 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-07T09:42:15.860+05:30  INFO 19816 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T09:42:16.602+05:30  WARN 19816 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-07T09:42:17.027+05:30  INFO 19816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-12-07T09:42:17.037+05:30  INFO 19816 --- [main] com.bookshop.BookShopApplication2        : Started BookShopApplication2 in 5.197 seconds (process running for 5.884)
+2022-12-07T09:42:21.623+05:30  INFO 19816 --- [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-07T09:42:21.624+05:30  INFO 19816 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-07T09:42:21.625+05:30  INFO 19816 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-12-07T09:42:21.646+05:30  WARN 19816 --- [http-nio-9090-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2022-12-07T09:46:44.260+05:30  INFO 19816 --- [http-nio-9090-exec-5] com.bookshop.controller.UserController   : Hear Yourself' ordered by kishor@gmail.com
+2022-12-07T09:50:04.672+05:30  INFO 19816 --- [http-nio-9090-exec-9] com.bookshop.controller.UserController   : Hear Yourself' ordered by kishor@gmail.com
+2022-12-07T09:55:07.082+05:30  INFO 19816 --- [http-nio-9090-exec-2] com.bookshop.controller.UserController   : Hear Yourself' ordered by kishor@gmail.com
+2022-12-07T09:55:12.941+05:30  INFO 19816 --- [RMI TCP Connection(15)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-12-07T09:55:12.958+05:30  INFO 19816 --- [RMI TCP Connection(15)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-07T09:55:12.960+05:30  INFO 19816 --- [RMI TCP Connection(15)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-07T09:55:12.968+05:30  INFO 19816 --- [RMI TCP Connection(15)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T09:55:12.970+05:30  INFO 19816 --- [RMI TCP Connection(15)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-07T09:55:12.977+05:30  INFO 19816 --- [RMI TCP Connection(15)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-07T09:55:18.403+05:30  INFO 9392 --- [main] com.bookshop.BookShopApplication2        : Starting BookShopApplication2 using Java 17.0.4.1 with PID 9392 (C:\Users\ppagare\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\BookShopV1.2\target\classes started by ppagare in C:\Users\ppagare\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\BookShopV1.2)
+2022-12-07T09:55:18.406+05:30  INFO 9392 --- [main] com.bookshop.BookShopApplication2        : No active profile set, falling back to 1 default profile: "default"
+2022-12-07T09:55:19.054+05:30  INFO 9392 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-07T09:55:19.127+05:30  INFO 9392 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 4 JPA repository interfaces.
+2022-12-07T09:55:19.672+05:30  INFO 9392 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-12-07T09:55:19.688+05:30  INFO 9392 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-07T09:55:19.690+05:30  INFO 9392 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-07T09:55:19.792+05:30  INFO 9392 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-07T09:55:19.793+05:30  INFO 9392 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1346 ms
+2022-12-07T09:55:19.927+05:30  INFO 9392 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-07T09:55:19.997+05:30  INFO 9392 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-07T09:55:20.133+05:30  WARN 9392 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-07T09:55:20.265+05:30  INFO 9392 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-07T09:55:20.733+05:30  INFO 9392 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d221b20
+2022-12-07T09:55:20.735+05:30  INFO 9392 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-07T09:55:20.755+05:30  INFO 9392 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-07T09:55:20.757+05:30  WARN 9392 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2022-12-07T09:55:21.719+05:30  INFO 9392 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-07T09:55:21.730+05:30  INFO 9392 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T09:55:22.471+05:30  WARN 9392 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-07T09:55:22.850+05:30  INFO 9392 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-12-07T09:55:22.861+05:30  INFO 9392 --- [main] com.bookshop.BookShopApplication2        : Started BookShopApplication2 in 4.926 seconds (process running for 8.74)
+2022-12-07T09:55:25.759+05:30  INFO 9392 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-07T09:55:25.760+05:30  INFO 9392 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-07T09:55:25.762+05:30  INFO 9392 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-12-07T09:55:25.988+05:30  INFO 9392 --- [http-nio-9090-exec-1] com.bookshop.controller.UserController   : Hear Yourself' ordered by kishor@gmail.com
+2022-12-07T09:56:25.626+05:30  INFO 9392 --- [http-nio-9090-exec-3] com.bookshop.controller.UserController   : Hear Yourself' ordered by kishor@gmail.com
+2022-12-07T10:01:32.157+05:30  INFO 9392 --- [http-nio-9090-exec-6] com.bookshop.controller.UserController   : Hear Yourself' ordered by kishor@gmail.com
+2022-12-07T10:02:47.761+05:30  INFO 9392 --- [http-nio-9090-exec-9] com.bookshop.controller.UserController   : Hear Yourself' ordered by jack@gmail.com
+2022-12-07T10:04:02.860+05:30  INFO 9392 --- [http-nio-9090-exec-1] com.bookshop.controller.UserController   : Yugandhar ordered by harshad13@gmail.com
+2022-12-07T10:13:31.605+05:30  INFO 9392 --- [http-nio-9090-exec-8] com.bookshop.controller.UserController   : Whereabouts ordered by gholap@gmail.com
+2022-12-07T10:47:59.682+05:30  WARN 9392 --- [http-nio-9090-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2022-12-07T11:18:12.146+05:30  INFO 9392 --- [RMI TCP Connection(87)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-12-07T11:18:12.153+05:30  INFO 9392 --- [RMI TCP Connection(87)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-07T11:18:12.154+05:30  INFO 9392 --- [RMI TCP Connection(87)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-07T11:18:12.160+05:30  INFO 9392 --- [RMI TCP Connection(87)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T11:18:12.161+05:30  INFO 9392 --- [RMI TCP Connection(87)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-07T11:18:12.164+05:30  INFO 9392 --- [RMI TCP Connection(87)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-07T11:18:13.643+05:30  INFO 25568 --- [main] com.bookshop.BookShopApplication2        : Starting BookShopApplication2 using Java 17.0.4.1 with PID 25568 (C:\Users\ppagare\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\BookShopV1.2\target\classes started by ppagare in C:\Users\ppagare\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\BookShopV1.2)
+2022-12-07T11:18:13.645+05:30  INFO 25568 --- [main] com.bookshop.BookShopApplication2        : No active profile set, falling back to 1 default profile: "default"
+2022-12-07T11:18:13.976+05:30  INFO 25568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-07T11:18:14.014+05:30  INFO 25568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 4 JPA repository interfaces.
+2022-12-07T11:18:14.270+05:30  INFO 25568 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-12-07T11:18:14.277+05:30  INFO 25568 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-07T11:18:14.277+05:30  INFO 25568 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-07T11:18:14.333+05:30  INFO 25568 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-07T11:18:14.334+05:30  INFO 25568 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 665 ms
+2022-12-07T11:18:14.411+05:30  INFO 25568 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-07T11:18:14.438+05:30  INFO 25568 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-07T11:18:14.522+05:30  WARN 25568 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-07T11:18:14.596+05:30  INFO 25568 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-07T11:18:14.772+05:30  INFO 25568 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2dd3d39d
+2022-12-07T11:18:14.773+05:30  INFO 25568 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-07T11:18:14.784+05:30  INFO 25568 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-07T11:18:14.785+05:30  WARN 25568 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2022-12-07T11:18:15.302+05:30  INFO 25568 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-07T11:18:15.307+05:30  INFO 25568 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T11:18:15.638+05:30  WARN 25568 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-07T11:18:15.814+05:30  INFO 25568 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-12-07T11:18:15.818+05:30  INFO 25568 --- [main] com.bookshop.BookShopApplication2        : Started BookShopApplication2 in 2.419 seconds (process running for 2.798)
+2022-12-07T11:42:17.675+05:30  INFO 25568 --- [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-07T11:42:17.675+05:30  INFO 25568 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-07T11:42:17.677+05:30  INFO 25568 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-12-07T13:06:03.878+05:30  INFO 25568 --- [http-nio-9090-exec-8] com.bookshop.controller.UserController   : Prashant Prashant loggedIn
+2022-12-07T13:14:40.056+05:30  INFO 25568 --- [http-nio-9090-exec-2] com.bookshop.controller.UserController   : Prashant Pagare Registered
+2022-12-07T13:15:20.187+05:30  INFO 25568 --- [http-nio-9090-exec-5] com.bookshop.controller.UserController   : Prashant Prashant loggedIn
+2022-12-07T13:16:12.354+05:30  INFO 25568 --- [http-nio-9090-exec-7] com.bookshop.controller.UserController   : Hear Yourself' ordered by kishor@gmail.com
+2022-12-07T13:23:45.069+05:30  INFO 29728 --- [main] com.bookshop.test.BookServiceTest        : Starting BookServiceTest using Java 17.0.4.1 with PID 29728 (started by ppagare in C:\Users\ppagare\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\BookShopV1.2)
+2022-12-07T13:23:45.072+05:30  INFO 29728 --- [main] com.bookshop.test.BookServiceTest        : No active profile set, falling back to 1 default profile: "default"
+2022-12-07T13:23:45.214+05:30  INFO 29728 --- [main] com.bookshop.test.BookServiceTest        : Started BookServiceTest in 0.615 seconds (process running for 1.723)
